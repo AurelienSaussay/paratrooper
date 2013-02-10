@@ -1,0 +1,9 @@
+* December 5, 2012
+Start dabbling in the project
+Disassembled paratrop.com with ndisasm
+Analyzed the resulting asm with ruby
+112 distinct mnemonics
+3 different interrupts: 10h, 16h and 1ah (video services, keyboard services and real time clock services)
+* December 6, 2012
+Started coding the coffeescript emulator
+Registers implemented as ArrayBuffers, which allow to simulate a union type in javascript
