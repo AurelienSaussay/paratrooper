@@ -32,6 +32,10 @@ OP_REG = 2
 
 
 class Operand
+  set8: ->
+  get8: ->
+  set16: ->
+  get16: ->
 
 class Operands
   constructor: (@leftTable, @leftIndex, @rightTable = null, @rightIndex = null) ->
